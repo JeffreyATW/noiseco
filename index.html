@@ -9,13 +9,13 @@
     <meta name="viewport" content="width=device-width">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "NoiseCo" %></title>
+    <title>NoiseCo</title>
 
-    <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %>
+    <link href="stylesheets/normalize-268439f1.css" rel="stylesheet" /><link href="stylesheets/all-92ab6558.css" rel="stylesheet" />
+    <script src="javascripts/all-da39a3ee.js"></script>
   </head>
 
-  <body class="<%= page_classes %>">
+  <body class="index">
     <header>
       <div class="container">
         <h1>NoiseCo</h1>
@@ -47,7 +47,32 @@
         </ul>
       </div>
     </nav>
-    <%= yield %>
+    <section class="hero">
+  <div class="hero__content">
+    <div class="container">
+      <h1>Achieve synergy with <strong>crowdsourced webinar solutions.</strong></h1>
+      <a href="#">Sign up now</a>
+    </div>
+  </div>
+</section>
+<section class="details">
+  <div class="container">
+    <ul>
+      <li class="details__detail--agile">
+        <h2>Agile workforce.</h2>
+        <p>Our work ethic is so sloppy that we had to slap a term like "agile" on it to convince our clients that we know what the hell someone does during sprints, scrums, and the like.</p>
+      </li>
+      <li class="details__detail--mobile">
+        <h2>Mobile-ready.</h2>
+        <p>Are you ready for analytics-driven, tablet-friendly solutions to delight your customers and forge lasting business partnerships? Good for you! Personally, we're just spouting garbage.</p>
+      </li>
+      <li class="details__detail--cloud">
+        <h2>Take a trip to the cloud.</h2>
+        <p>Our decentralized, virtualized consumer engagement mechanism is so convoluted and backwards that we could just plotz. Sign up today and witness utter shitheelery personified.</p>
+      </li>
+    </ul>
+  </div>
+</section>
     <footer>
       <div class="container">
         <div class="footer__left">
