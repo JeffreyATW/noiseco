@@ -15,7 +15,6 @@ gulp.task('sass', function () {
     .pipe(cssImageDimensions('../images'))
     .pipe(autoprefixer())
     .pipe(rename(function (path) {
-      console.log(path);
       path.extname = '';
     }))
     .pipe(gulp.dest('./.tmp/dist/stylesheets'));
