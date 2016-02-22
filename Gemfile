@@ -3,8 +3,6 @@
 source 'https://rubygems.org'
 
 gem "middleman", "~> 4.1.1"
-gem 'middleman-autoprefixer'
-gem 'middleman-compass'
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.4.6"

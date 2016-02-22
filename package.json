@@ -1,0 +1,27 @@
+{
+  "name": "noiseco-assets",
+  "version": "1.0.0",
+  "description": "Asset pipeline for noiseco site",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-css-image-dimensions": "^1.1.4",
+    "gulp-css-url-adjuster": "^0.2.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JeffreyATW/noiseco.git"
+  },
+  "author": "Jeffrey Carl Faden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JeffreyATW/noiseco/issues"
+  },
+  "homepage": "https://github.com/JeffreyATW/noiseco"
+}

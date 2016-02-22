@@ -47,12 +47,6 @@ end
 #   end
 # end
 
-set :css_dir, 'stylesheets'
-
-set :js_dir, 'javascripts'
-
-set :images_dir, 'images'
-
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -71,5 +65,7 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-
-activate :autoprefixer
+activate :external_pipeline,
+  name: :gulp,
+  command: build? ? 'gulp' : 'gulp watch',
+  source: '.tmp/dist'

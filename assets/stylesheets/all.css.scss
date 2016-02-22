@@ -44,7 +44,7 @@ header {
 
   h1 {
     @extend %image-replace;
-    background: image-url('logo.png') no-repeat;
+    background: url('logo.png') no-repeat;
     height: image-height('logo.png');
     width: image-width('logo.png');
   }
@@ -85,7 +85,7 @@ nav {
 }
 
 .hero {
-  background: $skyblue image-url('hero.jpg') no-repeat 50%;
+  background: $skyblue url('hero.jpg') no-repeat 50%;
 
   &__content {
     background: rgba(0, 0, 0, .25);
@@ -152,15 +152,15 @@ nav {
 
   &__detail {
     &--agile {
-      background-image: image-url('agile.png');
+      background-image: url('agile.png');
     }
 
     &--mobile {
-      background-image: image-url('mobile.png');
+      background-image: url('mobile.png');
     }
 
     &--cloud {
-      background-image: image-url('cloud.png');
+      background-image: url('cloud.png');
     }
   }
 }
@@ -170,7 +170,7 @@ footer {
 
   h2 {
     @extend %image-replace;
-    background: image-url('logo_small.png') no-repeat;
+    background: url('logo_small.png') no-repeat;
     height: image-height('logo_small.png');
     width: image-width('logo_small.png');
   }
